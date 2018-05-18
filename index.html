@@ -24,6 +24,9 @@
   				margin-right: auto ;
 				background-color: deepskyblue;
 			}
+			#audio {
+				visibility: hidden;
+			}
 		</style>
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
 	</head>
@@ -46,10 +49,14 @@
 				<!-- <small>Yes, yes, I know ActionScript is obsolete, but I couldn't get this.stop(); working in the JS/HTML5 project</small>
 			</div> -->
 		<!-- <embed src="8thGrCompAppsPunultimateProjObsoleteActionScriptSaratogaRevolution.swf" width=50% align="center"> -->
-		<!-- yay works in chrome, but not firefox boo hoo -->
 		<br>
 			<embed src="8thGrCompAppsPunultimateProjObsoleteActionScriptSaratogaRevolution.swf" width="500px" height="500px" align="center"> <!-- why don't percents work --> <br>
 			<small>Yes, yes, I know ActionScript is obsolete, but I couldn't get this.stop(); working in the JS/HTML5 project</small>
+		</div>
+		<div id="audio">
+			<audio autoplay loop>
+      <source src="background_music.mp3">
+</audio>
 		</div>
 	</body>
 </html>
